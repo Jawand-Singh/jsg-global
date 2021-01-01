@@ -1,0 +1,10 @@
+/* ../styles/global.css */
+/* npx tailwind build global.css -o compile.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Declare design system core elements below using @apply followed by selectores to reduce redundancy */
+

@@ -1,5 +1,7 @@
 /* ../styles/global.css */
 
+/* npx tailwind build global.css -o compile.css */
+
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
 /*
@@ -31168,6 +31170,8 @@ video {
   -webkit-animation: bounce 1s infinite;
           animation: bounce 1s infinite;
 }
+
+/* Declare design system core elements below using @apply followed by selectores to reduce redundancy */
 
 @media (min-width: 640px) {
   .sm\:container {
@@ -183888,3 +183892,5 @@ video {
             animation: bounce 1s infinite;
   }
 }
+
+/*# sourceMappingURL=global.css.map */

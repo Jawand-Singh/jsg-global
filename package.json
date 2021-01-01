@@ -16,13 +16,18 @@
     "url": "https://github.com/Jawand-Singh/jsg-global/issues"
   },
   "homepage": "https://github.com/Jawand-Singh/jsg-global#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-file-include": "^2.3.0",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "postcss": "^8.2.2"
+  },
   "dependencies": {
     "autoprefixer": "^10.1.0",
-    "postcss": "^8.2.2",
-    "postcss-import": "^14.0.0",
     "tailwindcss": "^2.0.2"
-  },
-  "devDependencies": {
-    "gulp": "^4.0.2"
   }
 }

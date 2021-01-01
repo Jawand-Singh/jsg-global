@@ -1,6 +1,0 @@
-/* ../styles/global.css */
-/* npx tailwind build global.css -o compile.css */
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
